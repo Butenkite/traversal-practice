@@ -100,8 +100,8 @@ public class TraversalPractice {
 
      // Replace the below line to create a tree 
      // as represented in the diagram above
-     Node<Integer> smallTree = null;
-
+     Node<Integer> smallTree = new Node<Integer>(99, new Node<>(45, new Node<>(9, null , null), new Node<>(5, null, null)), new Node<>(82, null, new Node<>(16, null, null)));
+     // would go in and make a helper function to be able to just do Node(value) and it shoves nulls in left and right automatically for me if need be.
 
     /*
      *              42
